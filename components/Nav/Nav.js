@@ -4,15 +4,15 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-    { name: "Features", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "FAQ?", to: "#faq", href: "/#faq" },
-    {
-        name: "Contact",
-        href: "https://chrstnl.com/",
-        isArrow: true,
-        target: "_blank"
-    }
+  { name: "Services", to: "#services", href: "/#services" },
+  { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+  { name: "FAQ?", to: "#faq", href: "/#faq" },
+  {
+    name: "About Us",
+    href: "https://chrstnl.com/",
+    isArrow: true,
+    target: "_blank",
+  },
 ];
 
 export const Nav = () => {
