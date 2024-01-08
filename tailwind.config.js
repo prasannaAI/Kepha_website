@@ -66,6 +66,7 @@ module.exports = {
         secondary: "#b3b8ca",
         primary_background: "#ffffff",
         secondary_background: "#3b4876",
+        text_primary: "#0a1a54",
         black: {
           DEFAULT: "#000000",
           50: "#E6E6E6",

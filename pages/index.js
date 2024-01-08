@@ -16,14 +16,12 @@ import {
   CardImage,
   Card,
 } from "@components/Card";
+import ServiceHome from "@components/Services/ServiceHome";
+import Cta from "@components/Cta/Cta";
 
 export default function Home() {
   return (
     <Layout className="">
-      <SEO
-        title="NutriTrack - A landing page template 🚀"
-        description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
-      />
       <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
         {/* { Page Banner } */}
         <HomeBanner />
@@ -32,21 +30,12 @@ export default function Home() {
           {/* Features */}
           <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
             <SectionContainer id="services" className="services">
-              <BadgeGroup alignment="center">
-                <BadgeMessage>Services</BadgeMessage>
-              </BadgeGroup>
-              <PageTitle className="text-center mx-auto" type="default">
-                Simplify Your Nutrition Journey with NutriTrack
-              </PageTitle>
-              <Content className="text-center" alignment="center">
-                <p>
-                  Hey there! Welcome to NutriTrack, the ultimate nutrition meal
-                  planner powered by Notion. We&apos;ve got some awesome
-                  features lined up to make your nutrition journey a piece of
-                  cake (pun intended). Check them out:
-                </p>
-              </Content>
-              <ContentImage />
+              <ServiceHome />
+            </SectionContainer>
+          </MotionBTTContainer>
+          <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
+            <SectionContainer id="services" className="services">
+              <Cta />
             </SectionContainer>
           </MotionBTTContainer>
           {/* Card Container Tabs */}

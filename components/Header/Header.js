@@ -16,9 +16,9 @@ export const Header = () => {
           <h1 className="logo mb-0">
             <Link href="/">
               <Image
-                src="/nutritrack.svg"
+                src="/kepha_logo1-removebg-preview.png"
                 alt="logo"
-                className="h-6 w-auto"
+                className="h-14 w-auto"
                 height="24"
                 width="100"
                 priority
@@ -29,11 +29,7 @@ export const Header = () => {
         <SectionContainer className="flex items-center ml-auto">
           <Nav />
           <ButtonGroup className="hidden md:block">
-            <a
-              role="button"
-              href="https://github.com/christian-luntok/nutritrack"
-              className="btn bg-[#e7e8ee] ml-4"
-            >
+            <a role="button" href="" className="btn bg-[#e7e8ee] ml-4">
               Contact Us
               <Icon icon="material-symbols:arrow-forward-rounded" />
             </a>
